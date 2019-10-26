@@ -1,0 +1,51 @@
+.alignleft {
+  float: left;
+}
+.alignright {
+  float: right;
+}
+.productContainer {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.productContainer .bottom-left {
+  position: absolute;
+  bottom: 20px;
+  left: 70px;
+  color: black;
+  font-size: 120%;
+  font-family: "Montserrat";
+  max-width: 500px;
+  text-align: left;
+  font-weight: bold;
+}
+.productContainer:hover .bottom-left {
+  bottom: 70px;
+}
+
+.productButton {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 256px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.35s ease;
+}
+
+.productButton a {
+  width: 100%;
+  display: block;
+  padding: 12px 48px;
+  text-align: center;
+  color: white;
+  background-color: black;
+  border: solid 2px white;
+  z-index: 1;
+}
+
+.productContainer:hover .productButton {
+  opacity: 1;
+}
