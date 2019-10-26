@@ -1,0 +1,27 @@
+.carousel .indicators .indicator-item {
+  background-color: white;
+}
+.carousel .indicators .indicator-item.active {
+  background-color: black !important;
+}
+.carousel.carousel-slider {
+  height: 833px !important;
+}
+.carouselContainer {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.carouselContainer img {
+  width: 100%;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 76px;
+  left: 50px;
+  color: black;
+  font-size: 320%;
+  font-family: "Montserrat";
+  max-width: 500px;
+  text-align: left;
+}
