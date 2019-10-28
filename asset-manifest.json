@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Living-Edge/static/css/main.747d594f.chunk.css",
+    "main.js": "/Living-Edge/static/js/main.8a8fc976.chunk.js",
+    "main.js.map": "/Living-Edge/static/js/main.8a8fc976.chunk.js.map",
+    "runtime-main.js": "/Living-Edge/static/js/runtime-main.503db1dc.js",
+    "runtime-main.js.map": "/Living-Edge/static/js/runtime-main.503db1dc.js.map",
+    "static/js/2.fc4c70c0.chunk.js": "/Living-Edge/static/js/2.fc4c70c0.chunk.js",
+    "static/js/2.fc4c70c0.chunk.js.map": "/Living-Edge/static/js/2.fc4c70c0.chunk.js.map",
+    "index.html": "/Living-Edge/index.html",
+    "precache-manifest.0394761592e96ac42226fab9f6929088.js": "/Living-Edge/precache-manifest.0394761592e96ac42226fab9f6929088.js",
+    "service-worker.js": "/Living-Edge/service-worker.js",
+    "static/css/main.747d594f.chunk.css.map": "/Living-Edge/static/css/main.747d594f.chunk.css.map",
+    "static/media/c1.jpg": "/Living-Edge/static/media/c1.cab32bfe.jpg",
+    "static/media/c2.jpg": "/Living-Edge/static/media/c2.d34330d3.jpg",
+    "static/media/c3.jpg": "/Living-Edge/static/media/c3.dd31f644.jpg",
+    "static/media/c4.jpg": "/Living-Edge/static/media/c4.66d57899.jpg",
+    "static/media/p1.jpg": "/Living-Edge/static/media/p1.d98488b6.jpg",
+    "static/media/p6.jpg": "/Living-Edge/static/media/p6.9062e89a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.503db1dc.js",
+    "static/js/2.fc4c70c0.chunk.js",
+    "static/css/main.747d594f.chunk.css",
+    "static/js/main.8a8fc976.chunk.js"
+  ]
+}
