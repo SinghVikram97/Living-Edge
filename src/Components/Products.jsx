@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
+import $ from "jquery";
+import M from "materialize-css/dist/js/materialize.min.js";
 import "./Products.css";
 import p1 from "./p1.jpg";
 import p2 from "./p2.jpg";
@@ -6,7 +9,32 @@ import p3 from "./p3.jpg";
 import p4 from "./p4.jpg";
 import p5 from "./p5.jpg";
 import p6 from "./p6.jpg";
+let time = "";
 export default class Products extends Component {
+  componentDidMount() {
+    let sideNav = $(".sidenav");
+    M.Sidenav.init(sideNav);
+    let carousel = $(".carousel.carousel-slider");
+    M.Carousel.init(
+      carousel,
+      {
+        fullWidth: true,
+        indicators: true
+      },
+      (time = setTimeout(autoplay, 4500))
+    );
+    function autoplay() {
+      let carouselNext = $(".carousel.carousel-slider");
+      let instance = M.Carousel.getInstance(carouselNext);
+      instance.next();
+      // $(".carousel").carousel("next");
+      time = setTimeout(autoplay, 4500);
+    }
+  }
+  componentWillUnmount = () => {
+    clearTimeout(time);
+  };
+
   render() {
     return (
       <div className="container" style={{ marginTop: "4%" }}>
@@ -30,7 +58,7 @@ export default class Products extends Component {
                   </div>
                   <div class="productOverlay"></div>
                   <div class="productButton">
-                    <a href="#"> VIEW DETAILS </a>
+                    <Link to="/product"> VIEW DETAILS </Link>
                   </div>
                 </div>
               </div>
