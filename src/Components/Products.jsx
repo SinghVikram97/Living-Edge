@@ -58,7 +58,7 @@ export default class Products extends Component {
                   </div>
                   <div class="productOverlay"></div>
                   <div class="productButton">
-                    <Link to="/product"> VIEW DETAILS </Link>
+                    <Link to="/product/1"> VIEW DETAILS </Link>
                   </div>
                 </div>
               </div>
@@ -68,7 +68,7 @@ export default class Products extends Component {
                   <div class="bottom-left">Monkey side table</div>
                   <div class="productOverlay"></div>
                   <div class="productButton">
-                    <a href="#"> VIEW DETAILS </a>
+                    <Link to="/product/2"> VIEW DETAILS </Link>
                   </div>
                 </div>
               </div>
@@ -78,7 +78,7 @@ export default class Products extends Component {
                   <div class="bottom-left">Garden arm chair</div>
                   <div class="productOverlay"></div>
                   <div class="productButton">
-                    <a href="#"> VIEW DETAILS </a>
+                    <Link to="/product/3"> VIEW DETAILS </Link>
                   </div>
                 </div>
               </div>
@@ -90,7 +90,7 @@ export default class Products extends Component {
                   <div class="bottom-left">Picnik</div>
                   <div class="productOverlay"></div>
                   <div class="productButton">
-                    <a href="#"> VIEW DETAILS </a>
+                    <Link to="/product/4"> VIEW DETAILS </Link>
                   </div>
                 </div>
               </div>
@@ -100,7 +100,7 @@ export default class Products extends Component {
                   <div class="bottom-left">Virus outdoor seater</div>
                   <div class="productOverlay"></div>
                   <div class="productButton">
-                    <a href="#"> VIEW DETAILS </a>
+                    <Link to="/product/5"> VIEW DETAILS </Link>
                   </div>
                 </div>
               </div>
@@ -110,7 +110,7 @@ export default class Products extends Component {
                   <div class="bottom-left">Bench B outdoor</div>
                   <div class="productOverlay"></div>
                   <div class="productButton">
-                    <a href="#"> VIEW DETAILS </a>
+                    <Link to="/product/6"> VIEW DETAILS </Link>
                   </div>
                 </div>
               </div>

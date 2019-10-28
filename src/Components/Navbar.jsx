@@ -4,7 +4,7 @@ import logo from "../logo.png";
 export default class Navbar extends Component {
   render() {
     return (
-      <div>
+      <div className="navbar-fixed">
         <nav id="mainNav">
           <div class="nav-wrapper" style={{ textAlign: "left" }}>
             <a href="#!" class="brand-logo">

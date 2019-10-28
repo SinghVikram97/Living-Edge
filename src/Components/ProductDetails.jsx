@@ -1,24 +1,34 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./ProductDetails.css";
-import p1 from "./p1.jpg";
+import p2 from "./p2.jpg";
+import products from "../products";
 export default class ProductDetails extends Component {
   render() {
+    let index = this.props.match.params.id;
+
+    let arrIndex = parseInt(index);
+
+    console.log(p2);
+
+    const { id, heading, subHeading, text, imgSrc } = products[arrIndex - 1];
+
     return (
       <div className="container-fluid productDetailsContainer">
         <div className="row">
           <div className="col rotated">
-            <Link to="/" style={{ color: "black" }}>
+            <a href="javascript:history.back(1)" style={{ color: "black" }}>
+              {" "}
               Home <br />
               <i class="material-icons" style={{ fontSize: "170%" }}>
                 arrow_drop_up
               </i>
-            </Link>
+            </a>
           </div>
           <div className="col s11">
             <div className="row" style={{ marginTop: "8%" }}>
               <div className="col s6" style={{ marginTop: "2%" }}>
-                <img src={p1} alt="" srcset="" />
+                <img src={imgSrc} alt="" srcset="" />
               </div>
               <div className="col s6">
                 <div className="row" style={{ marginBottom: "0" }}>
@@ -30,7 +40,7 @@ export default class ProductDetails extends Component {
                       marginBottom: "0"
                     }}
                   >
-                    Hopper 8-Seater Picnic Table in Iroko
+                    {heading}
                   </div>
                 </div>
                 <div className="row">
@@ -38,7 +48,7 @@ export default class ProductDetails extends Component {
                     className="col s12 fontM"
                     style={{ fontSize: "240%", textAlign: "left" }}
                   >
-                    Hardwood White
+                    {subHeading}
                   </div>
                 </div>
                 <div className="row">
@@ -52,7 +62,7 @@ export default class ProductDetails extends Component {
                       marginBottom: "5%"
                     }}
                   >
-                    Hopper, inspired by hops and hop gardens.
+                    {text}
                   </div>
                 </div>
                 <div
