@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Living-Edge/precache-manifest.7a30d546d089861bb77bda5a29397935.js"
+  "/Living-Edge/precache-manifest.9b010b3abbee1d575f0597c83110afea.js"
 );
 
 self.addEventListener('message', (event) => {

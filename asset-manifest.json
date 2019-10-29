@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Living-Edge/static/css/main.747d594f.chunk.css",
-    "main.js": "/Living-Edge/static/js/main.91bab5ea.chunk.js",
-    "main.js.map": "/Living-Edge/static/js/main.91bab5ea.chunk.js.map",
+    "main.js": "/Living-Edge/static/js/main.ae499aa0.chunk.js",
+    "main.js.map": "/Living-Edge/static/js/main.ae499aa0.chunk.js.map",
     "runtime-main.js": "/Living-Edge/static/js/runtime-main.503db1dc.js",
     "runtime-main.js.map": "/Living-Edge/static/js/runtime-main.503db1dc.js.map",
-    "static/js/2.fc4c70c0.chunk.js": "/Living-Edge/static/js/2.fc4c70c0.chunk.js",
-    "static/js/2.fc4c70c0.chunk.js.map": "/Living-Edge/static/js/2.fc4c70c0.chunk.js.map",
+    "static/js/2.af980664.chunk.js": "/Living-Edge/static/js/2.af980664.chunk.js",
+    "static/js/2.af980664.chunk.js.map": "/Living-Edge/static/js/2.af980664.chunk.js.map",
     "index.html": "/Living-Edge/index.html",
-    "precache-manifest.7a30d546d089861bb77bda5a29397935.js": "/Living-Edge/precache-manifest.7a30d546d089861bb77bda5a29397935.js",
+    "precache-manifest.9b010b3abbee1d575f0597c83110afea.js": "/Living-Edge/precache-manifest.9b010b3abbee1d575f0597c83110afea.js",
     "service-worker.js": "/Living-Edge/service-worker.js",
     "static/css/main.747d594f.chunk.css.map": "/Living-Edge/static/css/main.747d594f.chunk.css.map",
     "static/media/c1.jpg": "/Living-Edge/static/media/c1.cab32bfe.jpg",
@@ -20,8 +20,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.503db1dc.js",
-    "static/js/2.fc4c70c0.chunk.js",
+    "static/js/2.af980664.chunk.js",
     "static/css/main.747d594f.chunk.css",
-    "static/js/main.91bab5ea.chunk.js"
+    "static/js/main.ae499aa0.chunk.js"
   ]
 }
