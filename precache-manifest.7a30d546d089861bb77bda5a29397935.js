@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "77217555ddf9143acf22a4e99a034aa1",
+    "revision": "0dd9cc5997e16eef76d4c2b238ee33e2",
     "url": "/Living-Edge/index.html"
   },
   {
-    "revision": "11613e9675ff6f8d2f30",
+    "revision": "f44c857164593155a4c7",
     "url": "/Living-Edge/static/css/main.747d594f.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Living-Edge/static/js/2.fc4c70c0.chunk.js"
   },
   {
-    "revision": "11613e9675ff6f8d2f30",
-    "url": "/Living-Edge/static/js/main.8a8fc976.chunk.js"
+    "revision": "f44c857164593155a4c7",
+    "url": "/Living-Edge/static/js/main.91bab5ea.chunk.js"
   },
   {
     "revision": "c4e6f9213454f6f5b57a",
